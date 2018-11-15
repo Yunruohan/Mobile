@@ -10,6 +10,11 @@ export default new Router({
       path: '/',
       name: 'Header',
       component: Header
+    },
+    {
+      path: '/header',
+      name: 'Header',
+      component: Header
     }
   ]
 })
